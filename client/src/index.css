@@ -1,0 +1,387 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.bg-dark-custom {
+  background-color: #0056b3 !important;
+  color: white;
+}
+
+.bg-dark-footer {
+  background-color: #333333 !important;
+  color: white;
+}
+
+.bg-dark-blue {
+  background-color: #0056b3 !important;
+}
+
+.color-blue {
+  color: #0056b3 !important;
+}
+
+.btn-custom {
+  background-color: #004ba0;
+  color: white;
+  border-radius: 0;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.btn-custom:hover {
+  background-color: #003b86;
+  cursor: pointer;
+}
+
+.form-control {
+  border: 1px solid #333333;
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.form-control::placeholder {
+  color: #777;
+  font-size: 1.05rem;
+}
+
+.bg-productos {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    display: none;
+  }
+}
+
+.logo-img {
+  height: 110px;
+  transition: height 0.3s ease;
+}
+
+@media (max-width: 470px) {
+  .logo-img {
+    height: 80px;
+  }
+}
+
+.custom-toggler {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  top: 2px;
+  padding: 5px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+  position: relative;
+}
+
+.custom-toggler .navbar-toggler-icon::before,
+.custom-toggler .navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+}
+
+.custom-toggler .navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.custom-toggler .navbar-toggler-icon::after {
+  top: 8px;
+}
+
+.topbar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-white {
+  background-color: #ffffff;
+}
+
+.navbar-white .nav-link {
+  color: #333333 !important;
+  font-weight: 500;
+}
+
+.custom-navbar .nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  margin: 0 12px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #0056b3 !important;
+  border-bottom: 2px solid #0056b3;
+}
+
+.contact-info span {
+  font-size: 0.95rem;
+  color: #f1f1f1;
+  padding: 2px 2px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.contact-info span:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.overlay-content {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: #0056b3;
+  padding: 4px 14px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.sidebar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.3rem !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  display: block;
+  transition: color 0.3s ease;
+  padding: 0.5rem 0;
+}
+
+.sidebar-link:hover {
+  color: #003366;
+}
+
+.logo-sidebar {
+  width: 40%;
+  opacity: 0.9;
+  margin-top: 3rem;
+}
+
+.logosidebarcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.carouselContainer {
+  --sizeImg: 200px;
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  width: 100%;
+}
+.link {
+  border: 1px solid white;
+}
+
+.carousel-container .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container .carousel-image {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+
+.img-novedad {
+  width: 60%;
+  max-height: 420px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .img-novedad {
+    width: 100%;
+    max-height: 800px;
+  }
+}
+
+.swal-custom-button {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+  font-weight: 600;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.swal-custom-button:hover {
+  background-color: #0b5ed7 !important;
+}
+
+.estrellas-rating {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.estrella {
+  font-size: 2rem;
+  color: #ccc;
+  transition: color 0.2s;
+}
+
+.estrella.activa {
+  color: #ffc107;
+}
+
+
+.estrellas-rating input {
+  display: none;
+}
+
+.estrellas-rating label {
+  cursor: pointer;
+}
+
+.estrellas-rating span {
+  font-size: 2rem;
+  color: #ccc;
+  transition: color 0.2s;
+}
+
+
+.estrellas-rating input:checked ~ label span,
+.estrellas-rating input:checked + span,
+.estrellas-rating input:checked + span ~ span {
+  color: #ffc107;
+}
+
+
+.estrellas-rating label:hover span,
+.estrellas-rating label:hover ~ label span {
+  color: #ffc107;
+}
+
+.boton-opiniones {
+  font-family: 'Merriweather', serif; 
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  border: 2px solid #222;
+  color: #222;
+  background-color: transparent;
+  padding: 8px 18px;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.boton-opiniones:hover {
+  background-color: #222;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+
+
+
