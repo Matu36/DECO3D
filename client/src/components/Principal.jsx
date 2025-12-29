@@ -1,5 +1,5 @@
 import React from "react";
-import imgPrincipal from "../assets/images/INICIO-EST.jpeg";
+import imgPrincipal from "../assets/images/PRINCIPAL.png";
 import nosotros from "../assets/images/solimatu.jpg";
 import ap from "../assets/images/productos/ap/ap.jpg";
 import casa from "../assets/images/productos/casa/casa.jpg";

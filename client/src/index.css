@@ -194,17 +194,57 @@ button:focus-visible {
   border-bottom: 2px solid #0056b3;
 }
 
-.contact-info span {
-  font-size: 0.95rem;
-  color: #f1f1f1;
-  padding: 2px 2px;
-  border-radius: 4px;
-  transition: background 0.3s ease;
+/* TOPBAR */
+.topbar {
+  background: linear-gradient(90deg, #E8DCC2, #F3E9D2, #B7C29A);
+  padding: 6px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  justify-content: space-around;
 }
 
-.contact-info span:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+.contact-info { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; width: 100%; }
+
+/* INFO */
+.contact-info span {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #3A3A3A; 
+  letter-spacing: 0.8px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.35); 
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
 }
+
+
+/* Hover alegre */
+.contact-info span:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+/* ICONOS */
+.contact-info .icon {
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* INSTAGRAM */
+.instagram-link {
+  color: #fff;
+  padding: 6px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.instagram-link:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.15) rotate(5deg);
+}
+
 
 .overlay {
   position: absolute;
@@ -232,7 +272,7 @@ button:focus-visible {
 }
 
 .sidebar-link {
-  color: white;
+  color: grey;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.3rem !important;

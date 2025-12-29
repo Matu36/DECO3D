@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Offcanvas } from "react-bootstrap";
 import imagen1 from "../assets/images/LOGOHEADER.png";
+import LOGO from "../assets/images/LOGODECO.png";
 
 export default function Sidebar() {
   const [show, setShow] = useState(false);
@@ -25,7 +26,7 @@ export default function Sidebar() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           color: "#333333",
-          backgroundColor: "#0056b3",
+          backgroundColor: "#F3E9D2",
         }}
       >
         <Offcanvas.Body>
@@ -56,7 +57,7 @@ export default function Sidebar() {
           </ul>
 
           <div className="logosidebarcontainer">
-            <img src={imagen1} alt="imagenLogo" className="logo-sidebar" />
+            <img src={LOGO} alt="imagenLogo" className="logo-sidebar" />
           </div>
         </Offcanvas.Body>
       </Offcanvas>
