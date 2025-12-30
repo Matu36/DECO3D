@@ -40,7 +40,7 @@ export default function Principal() {
                   src={librero}
                   className="card-img-top"
                   alt="Accidentes Personales"
-                  style={{ objectFit: "cover", height: "200px" }}
+                  style={{ objectFit: "cover", height: "300px" }}
                 />
                 <div className="card-body">
                   <h3 className="card-text fw-semibold sidebar-link">
@@ -62,7 +62,7 @@ export default function Principal() {
                   src={vela}
                   className="card-img-top"
                   alt="Hogar"
-                  style={{ objectFit: "cover", height: "200px" }}
+                  style={{ objectFit: "cover", height: "300px" }}
                 />
                 <div className="card-body">
                   <h3 className="card-text fw-semibold sidebar-link">Hogar</h3>
@@ -82,7 +82,7 @@ export default function Principal() {
                   src={manguera}
                   className="card-img-top"
                   alt="Automotor"
-                  style={{ objectFit: "cover", height: "200px" }}
+                  style={{ objectFit: "cover", height: "300px" }}
                 />
                 <div className="card-body">
                   <h3 className="card-text fw-semibold sidebar-link">
@@ -94,7 +94,7 @@ export default function Principal() {
           </div>
         </div>
       </div>
-      <div className="text-center mt-4 ">
+      <div className="text-center">
         <Link
           to="/productos"
           className="btn-outline-green"

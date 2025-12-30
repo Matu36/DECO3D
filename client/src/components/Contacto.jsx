@@ -149,9 +149,7 @@ export default function Contacto() {
                 CONTACTO
               </h4>
 
-              <p className="mb-0 fs-2 fw-bold color-blue">
-                Comunicate con nosotros
-              </p>
+              <h2 className="mb-0 fs-2 fw-bold ">Comunicate con nosotros</h2>
 
               <p className="mt-2 fw-semibold text-dark">
                 No dudes en contactarnos si tenés alguna pregunta, inquietud o
