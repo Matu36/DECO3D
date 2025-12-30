@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Offcanvas } from "react-bootstrap";
 import imagen1 from "../assets/images/LOGOHEADER.png";
-import LOGO from "../assets/images/LOGODECO.png";
+import LOGO from "../assets/images/LOGODECOSF.png";
 
 export default function Sidebar() {
   const [show, setShow] = useState(false);
@@ -22,7 +22,6 @@ export default function Sidebar() {
         placement="start"
         className="custom-sidebar"
         style={{
-          //   backgroundImage: `url(${sidebarImg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           color: "#333333",
@@ -46,7 +45,6 @@ export default function Sidebar() {
                   style={{
                     fontWeight: 600,
                     fontSize: "1.1rem",
-                    textShadow: "1px 1px 2px rgba(0, 0, 0, 0.6)",
                     display: "block",
                   }}
                 >

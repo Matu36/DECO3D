@@ -190,8 +190,8 @@ button:focus-visible {
 }
 
 .custom-navbar .nav-link:hover {
-  color: #0056b3 !important;
-  border-bottom: 2px solid #0056b3;
+  color: #9DAE8C !important;
+  border-bottom: 2px solid #9DAE8C;
 }
 
 /* TOPBAR */
@@ -272,18 +272,18 @@ button:focus-visible {
 }
 
 .sidebar-link {
-  color: grey;
+  color: #333;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 1.3rem !important;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-  display: block;
-  transition: color 0.3s ease;
+  font-size: 1.2rem !important;
+  display: inline-block;
   padding: 0.5rem 0;
+  transition: all 0.3s ease;
 }
 
 .sidebar-link:hover {
-  color: #003366;
+  color: #9DAE8C;
+    border-bottom: 2px solid #9DAE8C;
+
 }
 
 .logo-sidebar {
@@ -296,6 +296,23 @@ button:focus-visible {
   display: flex;
   justify-content: center;
 }
+
+h4 {
+
+  color: #B7C29A
+}
+
+h2 {
+    color:  #D8D2C4
+}
+
+.bg-pastel-beige {
+  background-color: #F5F5DC !important; 
+}
+
+
+
+
 
 .carouselContainer {
   --sizeImg: 200px;
@@ -421,6 +438,35 @@ button:focus-visible {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   letter-spacing: 1px;
 }
+
+.btn-outline-green {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  background: transparent;
+  border: 2px solid #9DAE8C;
+  color: #8A9A5B;
+  font-weight: 600;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+ 
+}
+
+.btn-outline-green:hover {
+  background: #9DAE8C;
+  color: white;
+}
+
+.btn-outline-green .arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.btn-outline-green:hover .arrow-icon {
+  transform: translateX(5px);
+}
+
 
 
 
