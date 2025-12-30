@@ -68,9 +68,10 @@ button:focus-visible {
 }
 
 .bg-dark-custom {
-  background-color: #0056b3 !important;
-  color: white;
+  background: #F3E9D2; 
+  color: #3A3A3A;
 }
+
 
 .bg-dark-footer {
   background-color: #333333 !important;
@@ -467,7 +468,12 @@ h2 {
   transform: translateX(5px);
 }
 
+.acerca {
+    color: #333333 !important;
+}
 
-
+.bg-pastel {
+  background-color: #F5F5DC
+}
 
 

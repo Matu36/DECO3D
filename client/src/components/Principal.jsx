@@ -94,7 +94,7 @@ export default function Principal() {
           </div>
         </div>
       </div>
-      <div className="text-center mt-4 mb-2">
+      <div className="text-center mt-4 ">
         <Link
           to="/productos"
           className="btn-outline-green"
@@ -112,7 +112,7 @@ export default function Principal() {
           <FaArrowRight className="arrow-icon" />
         </Link>
       </div>
-      <div className="row min-vh-90 align-items-center mt-2 mb-5">
+      <div className="row min-vh-90 align-items-center mb-5">
         {/* Texto izquierda */}
         <div className="col-md-6 d-flex justify-content-center p-5">
           <div>
@@ -126,7 +126,7 @@ export default function Principal() {
               Sobre nosotros
             </h2>
             <p
-              className="text-dark fs-5"
+              className="acerca fs-5"
               style={{ maxWidth: "90%", lineHeight: "1.7" }}
             >
               Somos amigos desde que nacimos y siempre compartimos el mismo
@@ -179,7 +179,7 @@ export default function Principal() {
         </div>
       </div>
 
-      <div className="container-fluid bg-productos py-3 px-md-5 px-4 mt-4">
+      {/* <div className="container-fluid bg-productos py-3 px-md-5 px-4 mt-4">
         <h4
           className="text-uppercase text-secondary text-center"
           style={{ letterSpacing: "1px" }}
@@ -189,7 +189,7 @@ export default function Principal() {
         <h2 className="color-blue text-center fw-bold">Novedades</h2>
         <div className="row g-4 justify-content-center">
           {/* Card 1 */}
-          <div className="col-lg-4 col-md-6">
+      {/* <div className="col-lg-4 col-md-6">
             <div className="card h-100 rounded shadow-sm">
               <div className="p-2">
                 <div className="ratio ratio-16x9 rounded overflow-hidden">
@@ -215,9 +215,9 @@ export default function Principal() {
                 </p>
               </div>
             </div>
-          </div>
-          {/* Card 2 */}
-          <div className="col-lg-4 col-md-6">
+          </div> */}
+      {/* Card 2 */}
+      {/* <div className="col-lg-4 col-md-6">
             <div className="card h-100 rounded shadow-sm">
               <div className="p-2">
                 <div className="ratio ratio-16x9 rounded overflow-hidden">
@@ -242,9 +242,9 @@ export default function Principal() {
                 </p>
               </div>
             </div>
-          </div>
-          {/* Card 3 */}
-          <div className="col-lg-4 col-md-6">
+          </div> */}
+      {/* Card 3 */}
+      {/* <div className="col-lg-4 col-md-6">
             <div className="card h-100 rounded shadow-sm">
               <div className="p-2">
                 <div className="ratio ratio-16x9 rounded overflow-hidden">
@@ -291,9 +291,9 @@ export default function Principal() {
               />
             </Link>
           </div>
-        </div>
-      </div>
-      <Resena />
+        </div> */}
+      {/* </div>  */}
+      {/* <Resena /> */}
     </div>
   );
 }
