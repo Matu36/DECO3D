@@ -112,7 +112,7 @@ export default function Principal() {
           <FaArrowRight className="arrow-icon" />
         </Link>
       </div>
-      <div className="row min-vh-90 align-items-center mb-5">
+      <div className="row min-vh-70 align-items-center mb-0">
         {/* Texto izquierda */}
         <div className="col-md-6 d-flex justify-content-center p-5">
           <div>
@@ -122,9 +122,11 @@ export default function Principal() {
             >
               Acerca de la Compañía
             </h4>
+
             <h2 className="fw-bold mb-4" style={{ fontSize: "2rem" }}>
               Sobre nosotros
             </h2>
+
             <p
               className="acerca fs-5"
               style={{ maxWidth: "90%", lineHeight: "1.7" }}
@@ -143,6 +145,29 @@ export default function Principal() {
               el día a día y que, al mismo tiempo, sea parte de la identidad de
               cada hogar.
             </p>
+
+            {/* Botón */}
+            <div className="mt-3 text-center text-md-start">
+              <a
+                href="/aboutUs"
+                className="btn-outline-green"
+                style={{ transition: "all 0.3s ease", cursor: "pointer" }}
+                onMouseEnter={(e) => {
+                  const icon = e.currentTarget.querySelector(".arrow-icon");
+                  icon.style.transform = "translateX(5px)";
+                }}
+                onMouseLeave={(e) => {
+                  const icon = e.currentTarget.querySelector(".arrow-icon");
+                  icon.style.transform = "translateX(0)";
+                }}
+              >
+                Ver más
+                <FaArrowRight
+                  className="arrow-icon"
+                  style={{ transition: "transform 0.3s ease" }}
+                />
+              </a>
+            </div>
           </div>
         </div>
 
@@ -154,28 +179,6 @@ export default function Principal() {
             className="w-100 h-100"
             style={{ objectFit: "cover" }}
           />
-        </div>
-
-        <div class="d-flex justify-content-center">
-          <a
-            href="/aboutUs"
-            className="btn-outline-green"
-            style={{ transition: "all 0.3s ease", cursor: "pointer" }}
-            onMouseEnter={(e) => {
-              const icon = e.currentTarget.querySelector(".arrow-icon");
-              icon.style.transform = "translateX(5px)";
-            }}
-            onMouseLeave={(e) => {
-              const icon = e.currentTarget.querySelector(".arrow-icon");
-              icon.style.transform = "translateX(0)";
-            }}
-          >
-            Ver más
-            <FaArrowRight
-              className="arrow-icon"
-              style={{ transition: "transform 0.3s ease" }}
-            />
-          </a>
         </div>
       </div>
 

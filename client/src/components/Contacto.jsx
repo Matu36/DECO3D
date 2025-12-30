@@ -132,7 +132,7 @@ export default function Contacto() {
     <div className="container-fluid bg-pastel-beige">
       <div className="row">
         {/* Imagen lado izquierdo */}
-        <div className="col-md-6 p-2">
+        <div className="col-md-6 p-4">
           <img
             src={ContactoImg}
             alt="Contacto"
