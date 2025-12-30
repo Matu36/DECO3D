@@ -1,5 +1,5 @@
 import React from "react";
-import nosotrosImg from "../assets/images/solimatu.jpg";
+import nosotrosImg from "../assets/images/nosaeropuerto.jpg";
 import {
   FaHandshake,
   FaBalanceScale,
@@ -34,12 +34,13 @@ export default function Nosotros() {
   ];
 
   return (
-    <div className="container-fluid p-2 bg-productos">
+    <div className="container-fluid p-2 bg-pastel-beige">
       {/* Imagen principal */}
       <img
         src={nosotrosImg}
         alt="imagen principal"
-        className="img-fluid w-100"
+        className="img-fluid d-block mx-auto"
+        style={{ marginTop: "1rem" }}
       />
 
       <div className="container-fluid py-5">
@@ -55,15 +56,15 @@ export default function Nosotros() {
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.transform = "rotateY(10deg)";
-                  e.currentTarget.style.backgroundColor = "#0056b3";
-                  e.currentTarget.style.color = "#fff";
+                  e.currentTarget.style.backgroundColor = "#F3E9D2";
+                  e.currentTarget.style.color = "#333";
                   e.currentTarget.querySelector("h5").style.fontWeight = "600";
                   e.currentTarget.querySelector("p").style.fontWeight = "600";
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.transform = "rotateY(0deg)";
                   e.currentTarget.style.backgroundColor = "#fff";
-                  e.currentTarget.style.color = "#000";
+                  e.currentTarget.style.color = "#333";
                   e.currentTarget.querySelector("h5").style.fontWeight =
                     "normal";
                   e.currentTarget.querySelector("p").style.fontWeight =
@@ -83,43 +84,47 @@ export default function Nosotros() {
         </div>
       </div>
       <div className="row align-items-center">
-        <div className="col-md-6 d-flex justify-content-center bg-productos px-4">
+        <div className="col-md-6 d-flex justify-content-center bg-pastel-beige px-4">
           <div>
-            <h4
-              className="text-uppercase text-secondary"
-              style={{ letterSpacing: "1px" }}
-            >
+            <h4 className="text-uppercase " style={{ letterSpacing: "1px" }}>
               Acerca de la Compañía
             </h4>
-            <h2
-              className="color-blue fw-bold mb-4"
-              style={{ fontSize: "2rem" }}
-            >
+            <h2 className="fw-bold mb-4" style={{ fontSize: "2rem" }}>
               Sobre nosotros
             </h2>
             <p
-              className="text-dark fs-5"
+              className="acerca fs-5"
               style={{ maxWidth: "90%", lineHeight: "1.7" }}
             >
-              <strong>Seguros Pineda</strong> nació en 1987 de la mano de
-              nuestro papá, Hugo, quien comenzó realizando cobranzas para
-              distintos productores. Gracias a su responsabilidad, simpatía y
-              calidez, fue construyendo una sólida cartera de clientes basada en
-              la confianza y el boca en boca.
+              <strong>deco3D</strong> nació como un proyecto entre hermanos,
+              impulsado por nuestra pasión compartida por el diseño, la
+              tecnología y la creación de objetos que combinan estética y
+              funcionalidad. Todo comenzó de manera simple: una impresora 3D,
+              muchas ideas y las ganas de transformar conceptos en piezas reales
+              que mejoraran los espacios de las personas.
               <br />
               <br />
-              En aquella época, Huguito conocía personalmente a cada asegurado,
-              compartía charlas, cafés y hasta vínculos con sus familias. Ese
-              trato cercano y humano fue, desde siempre, una marca registrada de
-              nuestra forma de trabajar.
+              Desde el primer día, nos propusimos trabajar con dedicación,
+              cuidado por los detalles y un trato cercano con cada cliente.
+              Creemos que los objetos tienen un valor especial cuando están
+              pensados para durar, para ser útiles y para transmitir algo de
+              quienes los crean. Esa búsqueda de calidad y calidez se convirtió
+              rápidamente en nuestra marca registrada.
               <br />
               <br />
-              Hoy somos sus hijos, Sol y Matías, quienes continuamos con orgullo
-              el camino que él inició. Matías se recibió de Productor y Asesor
-              de Seguros en 2013 y Sol en 2021. Si bien los tiempos cambiaron,
-              mantenemos ese espíritu cálido y familiar en cada vínculo,
-              ofreciendo un asesoramiento profesional, responsable y siempre con
-              buena predisposición.
+              Hoy somos <strong>Matías y Mariano</strong> quienes damos vida a
+              este emprendimiento. Matías aporta su experiencia en desarrollo,
+              diseño y resolución de problemas, mientras que Mariano suma
+              creatividad, visión estética y un enfoque práctico para cada
+              proyecto. Juntos formamos un equipo que disfruta experimentar,
+              mejorar y crear piezas únicas que combinan diseño moderno,
+              funcionalidad y un toque artesanal.
+              <br />
+              <br />
+              En deco3D seguimos creciendo con la misma esencia: trabajar con
+              responsabilidad, cercanía y pasión, ofreciendo productos pensados
+              para acompañar la vida cotidiana y hacerla un poco más linda, más
+              práctica y más nuestra.
             </p>
           </div>
         </div>

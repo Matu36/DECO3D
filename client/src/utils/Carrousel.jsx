@@ -2,11 +2,11 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import fuguito from "../assets/images/FUGOMATULIMA.jpg";
-import FUGOSOLO from "../assets/images/FUGOSOLO.jpg";
-import SOLIRECI from "../assets/images/SOLIRECIBIDA.jpg";
-import mati from "../assets/images/mati.jpg";
-import soli from "../assets/images/soli.jpg";
+import fuguito from "../assets/images/nosbirra.jpg";
+import FUGOSOLO from "../assets/images/nosmiami.jpg";
+import SOLIRECI from "../assets/images/nosmos.jpg";
+import mati from "../assets/images/nosobesidad.jpg";
+// import soli from "../assets/images/soli.jpg";
 
 const Carousel = () => {
   const settings = {
@@ -32,9 +32,9 @@ const Carousel = () => {
         <div>
           <img src={SOLIRECI} alt="Imagen 3" className="carousel-image" />
         </div>
-        <div>
+        {/* <div>
           <img src={soli} alt="Imagen 4" className="carousel-image" />
-        </div>
+        </div> */}
         <div>
           <img src={mati} alt="Imagen 5" className="carousel-image" />
         </div>
