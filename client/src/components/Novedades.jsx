@@ -6,13 +6,10 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Novedades() {
   return (
     <div className="container-fluid py-2 text-center bg-productos">
-      <h4
-        className="text-uppercase text-secondary mb-2"
-        style={{ letterSpacing: "1px" }}
-      >
+      <h4 className="text-uppercase  mb-2" style={{ letterSpacing: "1px" }}>
         A la vanguardia del sector
       </h4>
-      <h2 className="color-blue fw-bold mb-4" style={{ fontSize: "2rem" }}>
+      <h2 className=" fw-bold mb-4" style={{ fontSize: "2rem" }}>
         Novedades
       </h2>
       <div className="row justify-content-center">
@@ -38,7 +35,7 @@ export default function Novedades() {
                 <div className="text-start mt-3">
                   <Link
                     to={`/novedades/${producto.id}`}
-                    className="text-primary fw-semibold text-decoration-none d-inline-flex align-items-center gap-2"
+                    className="texto fw-semibold text-decoration-none d-inline-flex align-items-center gap-2"
                     style={{
                       transition: "all 0.3s ease",
                       cursor: "pointer",

@@ -1,64 +1,67 @@
-import clima from "../assets/images/novedades/climatico.jpg";
-import ciber from "../assets/images/novedades/ciberseguridad.jpg";
-import demanda from "../assets/images/novedades/demanda.jpg";
-import embebidos from "../assets/images/novedades/embebidos.jpg";
-import ia from "../assets/images/novedades/ia.jpg";
-import modernizacion from "../assets/images/novedades/modernizacion.jpg";
+import macetaAutoRiego from "../assets/images/novedades/Autoriego.png";
+import panelModular from "../assets/images/novedades/organizador.png";
+import organizadorLlaves from "../assets/images/novedades/llaves.png";
+import portabotella from "../assets/images/novedades/portabotella.png";
+import maceta from "../assets/images/novedades/maceta.png";
+import lamparaCarga from "../assets/images/novedades/lampara.png";
 
 export const novedadesAseguradoras = [
   {
     id: 1,
-    foto: ia,
-    titulo: "Inteligencia Artificial: Transformación Integral del Sector",
+    foto: maceta,
+    titulo: "Maceta Geométrica con Pico de Riego Integrado",
     descripcionBreve:
-      "La IA se consolida como herramienta clave en la evaluación de riesgos, personalización de pólizas y detección de fraudes.",
+      "Una maceta 3D con diseño facetado y pico incorporado que facilita el riego sin mojar la planta.",
     descripcionAmpliada:
-      "En 2025, la Inteligencia Artificial (IA) ha dejado de ser una promesa para convertirse en una realidad consolidada en el sector asegurador. Sus aplicaciones abarcan desde la evaluación de riesgos y la personalización de precios hasta la atención al cliente y la detección de fraudes. La IA predictiva permite prever riesgos y ajustar precios basándose en datos avanzados, mientras que la automatización simplifica la gestión de siniestros y otros procesos repetitivos. Estas tecnologías posicionan al sector como más ágil, eficiente e innovador, con productos y servicios personalizados en el centro de su estrategia.",
+      "Esta maceta impresa en 3D combina estética moderna con funcionalidad inteligente. Su diseño geométrico facetado no solo aporta estilo, sino que permite ajustar parámetros como grosor y forma según la planta. El pico de riego integrado canaliza el agua directamente a la base, evitando el exceso de humedad superficial. Optimizada para impresión sin soportes, es ideal para usuarios que buscan objetos decorativos útiles, fáciles de imprimir y con un toque de innovación pastel-minimalista.",
   },
   {
     id: 2,
-    foto: embebidos,
-    titulo: "Seguros Embebidos: Integración en la Vida Cotidiana",
+    foto: portabotella,
+    titulo: "Soporte Rígido Ergonómico para Botellas",
     descripcionBreve:
-      "Los seguros se integran directamente en productos y servicios, facilitando su adquisición y ampliando su alcance.",
+      "Soporte plástico rígido que transforma botellas grandes en recipientes fáciles y cómodos de sostener.",
     descripcionAmpliada:
-      "El modelo de seguros embebidos permite ofrecer coberturas directamente al adquirir otros productos o servicios, como al comprar un electrodoméstico o contratar un servicio digital. Esta estrategia simplifica el proceso de compra y mejora la experiencia del cliente, permitiendo a las aseguradoras llegar a nuevos segmentos de mercado. Se proyecta un crecimiento significativo de este modelo, con una oportunidad de mercado estimada en 900 mil millones de dólares para 2040.",
+      "Este soporte ergonómico de plástico rígido está diseñado para adaptarse a botellas de gaseosa de gran tamaño, facilitando su agarre y manejo durante el uso diario. Su estructura integra un aro de sujeción firme y una manija anatómica que distribuye el peso de la botella, reduciendo el esfuerzo en la mano y mejorando la estabilidad al servir o beber. Fabricado con un diseño moderno y funcional, es reutilizable, resistente y ideal tanto para el hogar como para reuniones, eventos o comercios. Su formato simple pero inteligente convierte un objeto cotidiano en una experiencia más cómoda y práctica.",
   },
+
   {
     id: 3,
-    foto: ciber,
-    titulo: "Ciberseguridad: Prioridad Estratégica ante Nuevos Riesgos",
+    foto: panelModular,
+    titulo: "Panel Modular de Pared Impreso en 3D",
     descripcionBreve:
-      "El aumento de amenazas digitales impulsa la demanda de seguros cibernéticos y refuerza la seguridad en las aseguradoras.",
+      "Un sistema de organización mural con módulos intercambiables que se imprimen y reconfiguran fácilmente.",
     descripcionAmpliada:
-      "Con la creciente digitalización, los riesgos de ciberataques se han intensificado, convirtiendo la ciberseguridad en una prioridad para el sector asegurador. Las aseguradoras están adoptando tecnologías como blockchain para proteger datos sensibles y garantizar la integridad de los procesos. Además, están ofreciendo pólizas de seguros cibernéticos para proteger a empresas y autónomos contra el robo de datos, ataques de ransomware y otras amenazas digitales.",
+      "Este panel modular impreso en 3D permite organizar objetos de forma flexible y estética. Cada módulo —como recipientes, ganchos o bandejas— se imprime por separado y se encastra sin herramientas, permitiendo reorganizar el panel según las necesidades del espacio. Su diseño pastel-minimalista lo convierte en una pieza decorativa funcional ideal para escritorios, talleres o cocinas. Es totalmente expandible, fácil de imprimir y pensado para quienes buscan orden, personalización y diseño moderno en un solo producto.",
   },
+
   {
     id: 4,
-    foto: modernizacion,
-    titulo: "Modernización de Sistemas: Agilidad y Eficiencia Operativa",
+    foto: lamparaCarga,
+    titulo: "Lámpara Decorativa con Cargador Inalámbrico Integrado",
     descripcionBreve:
-      "La actualización de infraestructuras tecnológicas mejora la adaptabilidad y eficiencia de las aseguradoras.",
+      "Una lámpara impresa en 3D que combina iluminación ambiental con carga inalámbrica para dispositivos móviles.",
     descripcionAmpliada:
-      "Las aseguradoras están modernizando sus infraestructuras con ecosistemas de interfaces de programación de aplicaciones (APIs) y plataformas de bajo código. Estas herramientas permiten una mayor adaptabilidad y aceleran el desarrollo de soluciones, simplificando la gestión de Tecnología de la Información (TI) y mejorando la capacidad de respuesta ante las necesidades del mercado.",
+      "Este objeto decorativo funcional fusiona diseño moderno y tecnología útil. La base impresa en 3D incluye una superficie de carga inalámbrica compatible con la mayoría de los smartphones, mientras que la parte superior emite una luz suave ideal para escritorios, mesas de noche o espacios de trabajo. Su forma orgánica y acabado pastel lo convierten en una pieza elegante que aporta calidez y utilidad. Pensado para impresión sin soportes, es fácil de fabricar y personalizar, integrando estética y funcionalidad en un solo objeto.",
   },
+
   {
     id: 5,
-    foto: clima,
-    titulo: "Cambio Climático: Adaptación de Coberturas y Modelos de Riesgo",
+    foto: macetaAutoRiego,
+    titulo: "Maceta Auto-Riego con Depósito Desmontable",
     descripcionBreve:
-      "El aumento de fenómenos climáticos extremos obliga a las aseguradoras a revisar coberturas y estrategias de gestión de riesgos.",
+      "Una maceta impresa en 3D que mantiene la humedad constante gracias a su sistema de riego pasivo.",
     descripcionAmpliada:
-      "El cambio climático representa un desafío creciente para el sector asegurador, con fenómenos meteorológicos extremos como tormentas, inundaciones e incendios forestales que incrementan las reclamaciones. Las aseguradoras están replanteando sus estrategias de cobertura y explorando nuevas formas de mitigar estos riesgos, incluyendo modelos predictivos más precisos para una tarificación eficiente y la oferta de productos específicos ante riesgos climáticos.",
+      "Esta maceta decorativa incorpora un sistema de auto-riego mediante un depósito inferior desmontable que almacena agua y la distribuye por capilaridad. Ideal para plantas pequeñas o suculentas, permite mantener la humedad sin riegos frecuentes. Su diseño pastel-minimalista y forma orgánica la convierten en una pieza estética para interiores modernos. Optimizada para impresión sin soportes, es fácil de fabricar y ensamblar, combinando funcionalidad, sostenibilidad y estilo.",
   },
+
   {
     id: 6,
-    foto: demanda,
-    titulo:
-      "Personalización y Seguros Bajo Demanda: Flexibilidad para el Cliente",
+    foto: organizadorLlaves,
+    titulo: "Organizador de Llaves con Bandeja Incorporada",
     descripcionBreve:
-      "Los seguros se adaptan a las necesidades individuales, permitiendo activarlos o desactivarlos según conveniencia.",
+      "Un accesorio mural impreso en 3D que combina ganchos magnéticos y bandeja superior para objetos cotidianos.",
     descripcionAmpliada:
-      "La flexibilidad se ha convertido en una prioridad para los clientes, llevando a las aseguradoras a ofrecer modelos de 'seguro bajo demanda'. Estos permiten a los asegurados activar y desactivar coberturas según sus necesidades en tiempo real, siendo especialmente atractivos en sectores como la movilidad compartida y el turismo. Además, la hiperpersonalización basada en IA ajusta las pólizas según los comportamientos de los usuarios, ofreciendo experiencias más satisfactorias.",
+      "Este organizador mural impreso en 3D ofrece una solución elegante y funcional para entradas, escritorios o espacios de trabajo. Incluye cinco ganchos magnéticos para llaves y una bandeja superior integrada ideal para dejar gafas, billetera o pequeños objetos. Su diseño pastel-minimalista se adapta a cualquier ambiente moderno, y está optimizado para impresión sin soportes, con formas suaves y proporciones equilibradas. Es una pieza decorativa que aporta orden y estilo con un toque tecnológico.",
   },
 ];

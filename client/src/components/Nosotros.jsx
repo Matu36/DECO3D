@@ -22,11 +22,6 @@ export default function Nosotros() {
       description: "Actuamos con ética y profesionalismo en cada gestión.",
     },
     {
-      icon: <FaRoad size={40} />,
-      title: "Trayectoria",
-      description: "Décadas de experiencia respaldan nuestro trabajo.",
-    },
-    {
       icon: <FaShieldAlt size={40} />,
       title: "Integridad",
       description: "Transparencia en cada acción que emprendemos.",
@@ -44,9 +39,9 @@ export default function Nosotros() {
       />
 
       <div className="container-fluid py-5">
-        <div className="row row-cols-1 row-cols-md-4 g-4 p-2">
+        <div className="row g-4 p-2 justify-content-around">
           {cardsData.map((card, index) => (
-            <div className="col" key={index}>
+            <div className="col d-flex justify-content-center" key={index}>
               <div
                 className="card h-100 text-center border-0 shadow-sm p-4"
                 style={{
@@ -110,15 +105,6 @@ export default function Nosotros() {
               pensados para durar, para ser útiles y para transmitir algo de
               quienes los crean. Esa búsqueda de calidad y calidez se convirtió
               rápidamente en nuestra marca registrada.
-              <br />
-              <br />
-              Hoy somos <strong>Matías y Mariano</strong> quienes damos vida a
-              este emprendimiento. Matías aporta su experiencia en desarrollo,
-              diseño y resolución de problemas, mientras que Mariano suma
-              creatividad, visión estética y un enfoque práctico para cada
-              proyecto. Juntos formamos un equipo que disfruta experimentar,
-              mejorar y crear piezas únicas que combinan diseño moderno,
-              funcionalidad y un toque artesanal.
               <br />
               <br />
               En deco3D seguimos creciendo con la misma esencia: trabajar con

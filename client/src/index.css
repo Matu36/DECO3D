@@ -68,8 +68,7 @@ button:focus-visible {
 }
 
 .bg-dark-custom {
-  background: #F3E9D2; 
-  color: #3A3A3A;
+  background: linear-gradient(90deg, #E8DCC2, #F3E9D2, #B7C29A);
 }
 
 
@@ -307,6 +306,20 @@ h4 {
   color: #B7C29A
 }
 
+.texto {
+  color: #B7C29A
+}
+
+.texto:hover,
+.texto:focus {
+  color: #9EAA7F;
+}
+
+h1 {
+
+  color: #B7C29A
+}
+
 h2 {
     color:  #D8D2C4
 }
@@ -314,6 +327,14 @@ h2 {
 .bg-pastel-beige {
   background-color: #F5F5DC !important; 
 }
+
+.espacioBlanco {
+  height: 30px;    
+  width: 100%;  
+  background-color: white;    
+}
+
+
 
 
 
@@ -349,9 +370,10 @@ h2 {
 }
 
 .img-novedad {
-  width: 60%;
-  max-height: 420px;
-  object-fit: cover;
+  /* width: 60%; */
+  max-height: 620px;
+  height: auto;
+  object-fit: contain; 
   transition: transform 0.3s ease;
   display: block;
   margin: 0 auto;
@@ -360,9 +382,19 @@ h2 {
 @media (max-width: 768px) {
   .img-novedad {
     width: 100%;
-    max-height: 800px;
+    max-height: 600px; 
+    height: auto;
+    object-fit: contain;
   }
 }
+
+
+.contenedor-novedad {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 
 .swal-custom-button {
   background-color: #0d6efd !important;
@@ -479,5 +511,6 @@ h2 {
 .bg-pastel {
   background-color: #F5F5DC
 }
+
 
 

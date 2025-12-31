@@ -18,7 +18,7 @@ export default function NovedadesDetail() {
 
   return (
     <div className="container-fluid py-2 bg-productos">
-      <div className="text-center mb-5">
+      <div className="text-center mb-5 mt-4 ">
         <img
           src={novedad.foto}
           alt={novedad.titulo}
@@ -27,10 +27,7 @@ export default function NovedadesDetail() {
           onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
         />
       </div>
-      <h1
-        className="color-blue fw-bold mb-4 text-center"
-        style={{ fontSize: "2.5rem" }}
-      >
+      <h1 className="fw-bold mb-4 text-center" style={{ fontSize: "2.5rem" }}>
         {novedad.titulo}
       </h1>
       <div
@@ -49,6 +46,7 @@ export default function NovedadesDetail() {
           </p>
         ))}
       </div>
+      {/* <div className="espacioBlanco"></div> */}
     </div>
   );
 }
