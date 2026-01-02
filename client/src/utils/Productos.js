@@ -1,5 +1,5 @@
-import agroImg from "../assets/images/productos/agro/card.jpg";
-import apImg from "../assets/images/productos/ap/card.jpg";
+import agroImg from "../assets/images/novedades/portabotella.png";
+import apImg from "../assets/images/productos/bandeja0.png";
 import apColoniaImg from "../assets/images/productos/ap/cardcolonia.jpg";
 import apMedicinaImg from "../assets/images/productos/ap/cardmedicina.jpg";
 import automotorImg from "../assets/images/productos/automotor/automotor.jpg";
@@ -23,11 +23,11 @@ import fichaAuto from "../assets/images/productos/automotor/ficha.pdf";
 import videoAuto from "../assets/images/productos/automotor/siniestro.mp4";
 import videoAuto1 from "../assets/images/productos/automotor/conciencia.mp4";
 import videoAuto2 from "../assets/images/productos/automotor/control.mp4";
-import imgagro1 from "../assets/images/productos/agro/img1.jpg";
-import imgagro2 from "../assets/images/productos/agro/img2.jpg";
-import imgagro3 from "../assets/images/productos/agro/img3.jpg";
-import imgap1 from "../assets/images/productos/ap/img1ap.jpg";
-import imgap2 from "../assets/images/productos/ap/img2ap.jpg";
+import imgagro1 from "../assets/images/productos/botella1.png";
+import imgagro2 from "../assets/images/productos/botella2.png";
+import imgagro3 from "../assets/images/productos/botella3.png";
+import imgap1 from "../assets/images/productos/bandeja0.png";
+import imgap2 from "../assets/images/productos/bandeja1.png";
 import img1col from "../assets/images/productos/ap/colonia/img1col.jpg";
 import img2col from "../assets/images/productos/ap/colonia/img2col.jpg";
 import fichacol from "../assets/images/productos/ap/colonia/fichacol.pdf";
@@ -78,9 +78,9 @@ import img1vida from "../assets/images/productos/vida/vida1img.jpg";
 export const productos = [
   {
     id: 1,
-    nombre: "Seguros Agropecuarios",
+    nombre: "Porta Botella",
     descripcion:
-      "Los seguros agropecuarios están diseñados para proteger la producción rural frente a riesgos climáticos, sanitarios y otros imprevistos que puedan afectar los cultivos o la actividad ganadera. Esta cobertura brinda respaldo económico al productor agropecuario, garantizando la continuidad de su trabajo ante pérdidas parciales o totales.",
+      "Soporte plástico rígido que transforma botellas grandes en recipientes fáciles y cómodos de sostener.",
     imagen1: agroImg,
     imagen2: imgagro1,
     imagen3: imgagro2,
@@ -92,9 +92,9 @@ export const productos = [
   },
   {
     id: 2,
-    nombre: "Accidentes Personales",
+    nombre: "Bandeja Decorativa Multifunción",
     descripcion:
-      "El seguro de accidentes personales es una cobertura diseñada para proteger económicamente a una persona en caso de sufrir un accidente que le cause lesiones físicas, invalidez o incluso el fallecimiento. Este tipo de seguro ofrece una indemnización al asegurado o a sus beneficiarios según el tipo de daño sufrido, permitiendo afrontar gastos médicos, rehabilitación o pérdidas de ingresos por incapacidad.",
+      "Bandeja decorativa de diseño moderno que combina organización y tecnología en un solo objeto. Integra superficies inspiradas en piedras naturales que funcionan como cargador inalámbrico y base de apoyo, junto con un espacio central para llaves, anteojos y objetos cotidianos. Aporta orden, funcionalidad y una presencia estética cálida, ideal para mesas de entrada, escritorios o mesas de luz.",
     imagen1: apImg,
     imagen2: imgap1,
     imagen3: imgap2,

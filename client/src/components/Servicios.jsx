@@ -6,13 +6,10 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Servicios() {
   return (
     <div className="container-fluid py-2 text-center bg-productos">
-      <h4
-        className="text-uppercase text-secondary mb-2"
-        style={{ letterSpacing: "1px" }}
-      >
-        Abarcamos todas las posiblidades
+      <h4 className="text-uppercase  mb-2" style={{ letterSpacing: "1px" }}>
+        Donde la decoración se vuelve útil
       </h4>
-      <h2 className="color-blue fw-bold mb-4" style={{ fontSize: "2rem" }}>
+      <h2 className=" fw-bold mb-4" style={{ fontSize: "2rem" }}>
         Productos
       </h2>
       <div className="row">
@@ -26,13 +23,13 @@ export default function Servicios() {
                 style={{ height: "200px", objectFit: "cover" }}
               />
               <div className="card-body d-flex flex-column justify-content-between">
-                <h5 className="text-uppercase text-secondary text-center">
+                <h5 className="text-uppercase  text-center">
                   {producto.nombre}
                 </h5>
                 <div className="text-center mt-3">
                   <Link
                     to={`/productos/${producto.id}`}
-                    className="d-inline-flex align-items-center gap-2 px-4 py-2 bg-white text-primary fw-semibold shadow-sm text-decoration-none"
+                    className="texto d-inline-flex align-items-center gap-2 px-4 py-2 fw-semibold shadow-sm text-decoration-none"
                     style={{
                       transition: "all 0.3s ease",
                       cursor: "pointer",
