@@ -1,7 +1,9 @@
 import agroImg from "../assets/images/novedades/portabotella.png";
 import apImg from "../assets/images/productos/bandeja0.png";
-import apColoniaImg from "../assets/images/productos/ap/cardcolonia.jpg";
-import apMedicinaImg from "../assets/images/productos/ap/cardmedicina.jpg";
+import apColoniaImg from "../assets/images/productos/difusor.png";
+import apMedicinaImg from "../assets/images/productos/silenciador.png";
+import apMedicinaImg1 from "../assets/images/productos/silenciador1.png";
+import apMedicinaImg2 from "../assets/images/productos/silenciador2.png";
 import automotorImg from "../assets/images/productos/automotor/automotor.jpg";
 import casaImg from "../assets/images/productos/casa/casa.jpg";
 import ciclistasImg from "../assets/images/productos/ciclistas/card.jpg";
@@ -28,8 +30,9 @@ import imgagro2 from "../assets/images/productos/botella2.png";
 import imgagro3 from "../assets/images/productos/botella3.png";
 import imgap1 from "../assets/images/productos/bandeja0.png";
 import imgap2 from "../assets/images/productos/bandeja1.png";
-import img1col from "../assets/images/productos/ap/colonia/img1col.jpg";
-import img2col from "../assets/images/productos/ap/colonia/img2col.jpg";
+import img1col from "../assets/images/productos/difusor1.png";
+import img2col from "../assets/images/productos/difusor2.png";
+import img3col from "../assets/images/productos/difusor3.png";
 import fichacol from "../assets/images/productos/ap/colonia/fichacol.pdf";
 import videoapmed from "../assets/images/productos/ap/medicina/videoapmed.mp4";
 import img1casa from "../assets/images/productos/casa/img1casa.jpg";
@@ -106,28 +109,28 @@ export const productos = [
   },
   {
     id: 3,
-    nombre: "Accidentes personales para Colonias de vacaciones",
+    nombre: "Escultura Difusora de Aire Natural",
     descripcion:
-      "El seguro de accidentes personales para colonias de vacaciones brinda cobertura médica y asistencia ante lesiones o incidentes que puedan sufrir niños, jóvenes o personal durante actividades recreativas, deportivas o educativas. Es una protección esencial para garantizar tranquilidad tanto a las familias como a los organizadores.",
+      "Escultura decorativa de diseño contemporáneo que mejora la circulación del aire de forma pasiva. Su geometría canaliza corrientes naturales provenientes de ventanas o ventiladores, ayudando a refrescar ambientes y dispersar aromas sin consumo eléctrico. Funciona como objeto artístico y solución funcional, ideal para espacios modernos que priorizan estética y bienestar.",
     imagen1: apColoniaImg,
     imagen2: img1col,
     imagen3: img2col,
-    imagen4: "",
+    imagen4: img3col,
     video: "",
     video1: "",
     video2: "",
-    fichaPDF: fichacol,
+    fichaPDF: "",
   },
   {
     id: 4,
-    nombre: "Accidentes Personales Medicina",
+    nombre: "Objeto Silenciador de Espacios",
     descripcion:
-      "El seguro de accidentes personales para medicina está diseñado especialmente para cubrir a médicos, enfermeros, técnicos y demás personal de salud ante posibles accidentes durante el desempeño de sus tareas o en su vida cotidiana. Es una herramienta clave para cuidar a quienes cuidan.",
+      "Objeto decorativo de diseño contemporáneo que ayuda a reducir la reverberación y suavizar el sonido ambiente de forma pasiva. Su geometría y textura están pensadas para absorber y dispersar ondas sonoras, mejorando la calidad acústica sin necesidad de instalaciones ni tecnología visible. Ideal para livings, estudios u oficinas que buscan confort sonoro sin resignar estética.",
     imagen1: apMedicinaImg,
-    imagen2: "",
-    imagen3: "",
+    imagen2: apMedicinaImg1,
+    imagen3: apMedicinaImg2,
     imagen4: "",
-    video: videoapmed,
+    video: "",
     video1: "",
     video2: "",
     fichaPDF: "",
